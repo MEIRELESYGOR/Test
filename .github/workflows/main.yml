@@ -6,7 +6,7 @@ on:
       target_repo:
         description: "Target repository (Owner/Repo)"
         required: true
-        default: "anjaymabarselebew/dell1"
+        default: "MEIRELESYGOR/test"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.inputs.target_repo }}
@@ -20,8 +20,8 @@ jobs:
       max-parallel: 10
       matrix:
         include:
-          - account: Ryad1976
-            email: 89422435+Ryad1976@users.noreply.github.com
+          - account: MEIRELESYGOR
+            email: 115479585+MEIRELESYGOR@users.noreply.github.com
             token_secret_1: PAT1A
             token_secret_2: PAT1B
             token_secret_3: PAT1C
